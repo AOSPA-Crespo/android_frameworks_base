@@ -1855,6 +1855,8 @@
 
   <!-- From notification light mapping -->
   <java-symbol type="array" name="notification_light_package_mapping" />
+  <java-symbol type="string" name="config_deviceKeyHandlerLib" />
+  <java-symbol type="string" name="config_deviceKeyHandlerClass" />
 
   <!-- From lockscreen targets -->
   <java-symbol type="drawable" name="list_selector_holo_dark" />
@@ -1892,8 +1894,4 @@
   <java-symbol type="string" name="second" />
   <java-symbol type="string" name="seconds" />
 
-  <!-- Device specific handlers -->
-  <java-symbol type="string" name="config_deviceHandlersLib" />
-  <java-symbol type="string" name="config_deviceKeyHandlerClass" />
-  <java-symbol type="string" name="config_deviceDockBatteryHandlerClass" />
 </resources>
